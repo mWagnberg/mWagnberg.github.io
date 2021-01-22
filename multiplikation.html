@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -21,7 +21,6 @@
 
 <body id="page-top">
 
-  <!-- Navigation -->
   <a class="menu-toggle rounded" href="#">
     <i class="fas fa-bars"></i>
   </a>
@@ -29,11 +28,56 @@
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <div class="container-fluid">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Hem</a></li>
-        <li><a href="multiplikation.html">Multiplikation</a></li>
+        <li><a href="index.html">Hem</a></li>
+        <li class="active"><a href="#">Multiplikation</a></li>
       </ul>
     </div>
   </nav>
+  
+  <div class="container">
+    
+    <div class="row col-md-12 mx-auto">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h3 id="countShow"></h3>
+      </div>
+    </div>
+  
+    <div class="row col-md-12 mx-auto">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="col-md-2">
+          <h3 id="a"></h3>
+        </div>
+        <div class="col-md-2">
+          <h3>x</h3>
+        </div>
+        <div class="col-md-2">
+          <h3 id="b"></h3>
+        </div>
+        <div class="col-md-2">
+          <h3>=</h3>
+        </div>
+        <div class="col-md-2 inputContainer">
+          <input class="inputAnswer" id="answer" type="text" name="answer"/>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row col-md-12 mx-auto">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <button id="submitBtn" type="button" onclick="checkAnswer();" class="btn btn-primary btn-block mb-4">Rätta</button>
+      </div>
+    </div>
+    
+    <div class="row col-md-12 mx-auto">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h3 id="message"></h3>
+      </div>
+    </div>
+  </div>
 
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

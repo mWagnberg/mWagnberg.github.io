@@ -1,0 +1,20 @@
+.inputAnswer {
+    width: 40px;
+    height: 40px;
+}
+
+.inputContainer {
+    margin-top: 5%;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+#message {
+    text-align: center;
+}
+
+#countShow {
+    text-align: center;
+}
