@@ -22,19 +22,16 @@ function generateNumbers() {
     answer.value = ""
 
     let a = document.getElementById("a")
-    let b = document.getElementById("b")
     
     a.textContent = Math.floor(Math.random() * 10)
-    b.textContent = Math.floor(Math.random() * 10)
 }
 
 function checkAnswer() {
     let a = document.getElementById("a")
-    let b = document.getElementById("b")
     let answer = document.getElementById("answer")
     let message = document.getElementById("message")
     questionCounter++
-    if ((a.textContent * b.textContent) == answer.value) {
+    if ((parseInt(a.textContent) + parseInt(answer.value)) == 10) {
       counter ++
       message.textContent = "Rätt svar"
     } else {
