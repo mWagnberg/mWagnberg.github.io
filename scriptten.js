@@ -1,5 +1,8 @@
 var counter = 0
 var questionCounter = 0
+var randomNumbers = [1,2,3,4,5,6,7,8,9,10]
+var startTime
+var endTime
 
 window.onload = (event) => {
 
@@ -22,22 +25,57 @@ function generateNumbers() {
     answer.value = ""
 
     let a = document.getElementById("a")
-    
-    a.textContent = Math.floor(Math.random() * 10)
+    const randomElement = randomNumbers[Math.floor(Math.random() * randomNumbers.length)];
+    a.textContent = randomElement
+    const index = randomNumbers.indexOf(randomElement);
+    if (index > -1) {
+      randomNumbers.splice(index, 1);
+    }
 }
 
 function checkAnswer() {
-    let a = document.getElementById("a")
-    let answer = document.getElementById("answer")
-    let message = document.getElementById("message")
-    questionCounter++
-    if ((parseInt(a.textContent) + parseInt(answer.value)) == 10) {
-      counter ++
-      message.textContent = "Rätt svar"
-    } else {
-      message.textContent = "Fel svar"
-    }
-    var countShow = document.getElementById("countShow")
-    countShow.textContent = "Antal rätt svar: " + counter + "/" + questionCounter
-    generateNumbers()
+  let button = document.querySelector("#submitBtn")
+  if (questionCounter == 0) {
+    startTime = new Date()
+  }
+  
+  if (button.textContent == "Starta om") {
+    location.reload()
+  }
+  
+  let a = document.getElementById("a")
+  let answer = document.getElementById("answer")
+  let message = document.getElementById("message")
+  questionCounter++
+  console.log("COUNTER: " + questionCounter)
+  if ((parseInt(a.textContent) + parseInt(answer.value)) == 10) {
+    counter ++
+    message.textContent = "Rätt svar"
+  } else {
+    message.textContent = "Fel svar"
+  }
+  var countShow = document.getElementById("countShow")
+  if (questionCounter < 11) {
+      countShow.textContent = "Antal rätta svar: " + counter + "/" + questionCounter
+      if (questionCounter == 10) {
+        gameOver()
+      } else {
+        generateNumbers()
+      }
+  }
+}
+
+function gameOver() {
+  let message = document.getElementById("message")
+  var countShow = document.getElementById("countShow")
+  endTime = new Date()
+  var timeDiff = endTime - startTime
+  timeDiff /= 1000
+  var seconds = Math.round(timeDiff)
+  countShow.textContent = "Antal rätta svar: " + counter + "/" + questionCounter + " på " + seconds + " sekunder"
+  let tendiv = document.getElementById("tendiv")
+  tendiv.classList.add("hideElement")
+  message.classList.add("hideElement")
+  let button = document.querySelector("#submitBtn")
+  button.textContent = "Starta om"
 }

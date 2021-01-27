@@ -18,3 +18,7 @@
 #countShow {
     text-align: center;
 }
+
+.hideElement {
+    display: none;
+}
