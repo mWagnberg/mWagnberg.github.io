@@ -22,3 +22,11 @@
 .hideElement {
     display: none;
 }
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}

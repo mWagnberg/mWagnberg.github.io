@@ -1,5 +1,5 @@
-var counter = 0
-var questionCounter = 0
+let counter = 0
+let questionCounter = 0
 
 window.onload = (event) => {
 

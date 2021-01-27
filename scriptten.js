@@ -67,14 +67,18 @@ function checkAnswer() {
 
 function gameOver() {
   let message = document.getElementById("message")
+  let tendiv = document.getElementById("tendiv")
+  let a = document.getElementById("a")
+  let answer = document.getElementById("answer")
   var countShow = document.getElementById("countShow")
   endTime = new Date()
   var timeDiff = endTime - startTime
   timeDiff /= 1000
   var seconds = Math.round(timeDiff)
   countShow.textContent = "Antal rätta svar: " + counter + "/" + questionCounter + " på " + seconds + " sekunder"
-  let tendiv = document.getElementById("tendiv")
-  tendiv.classList.add("hideElement")
+  // tendiv.classList.add("hideElement")
+  a.classList.add("hideElement")
+  answer.classList.add("hideElement")
   message.classList.add("hideElement")
   let button = document.querySelector("#submitBtn")
   button.textContent = "Starta om"
