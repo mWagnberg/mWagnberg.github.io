@@ -9,7 +9,7 @@ window.onload = (event) => {
   generateNumbers()
   var input = document.getElementById("answer")
   var countShow = document.getElementById("countShow")
-  countShow.textContent = "Antal rätta svar: " + counter + "/" + questionCounter
+  countShow.textContent = "10-kompisar"
   
   input.addEventListener("keyup", function(event) {
     
@@ -56,7 +56,7 @@ function checkAnswer() {
   }
   var countShow = document.getElementById("countShow")
   if (questionCounter < 11) {
-      countShow.textContent = "Antal rätta svar: " + counter + "/" + questionCounter
+      countShow.textContent = counter + "/" + questionCounter
       if (questionCounter == 10) {
         gameOver()
       } else {
@@ -75,7 +75,7 @@ function gameOver() {
   var timeDiff = endTime - startTime
   timeDiff /= 1000
   var seconds = Math.round(timeDiff)
-  countShow.textContent = "Antal rätta svar: " + counter + "/" + questionCounter + " på " + seconds + " sekunder"
+  countShow.textContent = counter + "/" + questionCounter + " rätt på " + seconds + " sekunder"
   // tendiv.classList.add("hideElement")
   a.classList.add("hideElement")
   answer.classList.add("hideElement")

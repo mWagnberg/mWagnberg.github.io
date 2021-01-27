@@ -6,7 +6,7 @@ window.onload = (event) => {
   generateNumbers()
   var input = document.getElementById("answer")
   var countShow = document.getElementById("countShow")
-  countShow.textContent = "Antal rätta svar: " + counter + "/" + questionCounter
+  countShow.textContent = "Multiplikation"
   
   input.addEventListener("keyup", function(event) {
     
@@ -41,6 +41,6 @@ function checkAnswer() {
       message.textContent = "Fel svar"
     }
     var countShow = document.getElementById("countShow")
-    countShow.textContent = "Antal rätt svar: " + counter + "/" + questionCounter
+    countShow.textContent = counter + "/" + questionCounter
     generateNumbers()
 }

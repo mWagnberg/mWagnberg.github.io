@@ -176,6 +176,13 @@ a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
 }
+a.white {
+  color: white;
+}
+a.white:hover {
+  color: #148f77;
+  text-decoration: none;
+}
 
 pre,
 code,
@@ -2439,7 +2446,7 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #fff;
   background-color: #1abc9c;
-  border-color: #1abc9c;
+  border-color: #148f77;
 }
 .btn-primary:hover {
   color: #fff;
