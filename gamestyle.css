@@ -1,0 +1,9 @@
+body {
+  width: 100%;
+}
+
+#avatar {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
