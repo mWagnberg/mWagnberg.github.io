@@ -7,6 +7,20 @@ var speedUp = 85
 var speedDown = 68
 var valueToMoveBy = 15;
 
+function moveBackground () {
+    var x = 0;
+    setInterval(function(){
+        x-=1;
+        var background = document.getElementById("gameSection")
+        background.style.backgroundPosition = x + "px 0"
+        // document.body.style.backgroundPosition = x + "px 0";
+        // var body = document.getElementsByTagName("BODY")
+        // body.css('background-position', x + 'px 0');
+    }, 10);
+}
+
+moveBackground()
+
 window.addEventListener('keydown', function(event) {
   switch (event.keyCode) {
     case down:
@@ -31,6 +45,7 @@ window.addEventListener('keydown', function(event) {
       return;
   }
 });
+
 // var canvas;
 // var context;
 // var rectX = 10

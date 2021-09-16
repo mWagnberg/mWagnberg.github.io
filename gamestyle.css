@@ -1,5 +1,23 @@
 body {
   width: 100%;
+  height: 100%;
+  /*background-image: url('https://noobtuts.com/content/unity/2d-super-mario-bros-game/unity_super_mario_bros.png');*/
+  /*background-size: 900px 620px;*/
+  /*background-size: 50% 63%;*/
+  /*background-size: 100vw 100vh;*/
+  /*background-image: url('assets/img/pipe.png');*/
+  /*background-repeat: repeat-x;*/
+}
+
+#gameSection {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://noobtuts.com/content/unity/2d-super-mario-bros-game/unity_super_mario_bros.png');
+  /*background-size: 900px 620px;*/
+  background-size: 50% 63%;
+  /*background-size: contain;*/
+  /*background-image: url('assets/img/pipe.png');*/
+  background-repeat: repeat-x;
 }
 
 #avatar {
