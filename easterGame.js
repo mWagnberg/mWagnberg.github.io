@@ -7,31 +7,32 @@ var questionsAndAnswers = [
   {
     "number": 0,
     "question": "Vad är det för dag idag?",
-    "answer": "1",
+    "answer": "långfredagen",
+    "answer2": "långfredag",
     "task": "Gå till påskriset i köket"
   },
   {
     "number": 1,
-    "question": "Hur många risgrenar är det?",
-    "answer": "1",
+    "question": "Hur många påskdekorationer finns det i påskriset?",
+    "answer": "6",
     "task": ""
   },
   {
     "number": 2,
     "question": "Vad är det för figur som kommer med påskäggen på påsken?",
-    "answer": "1",
-    "task": "Gå till lådan med påskäggen"
+    "answer": "påskharen",
+    "task": "Gå till pianot"
   },
   {
     "number": 3,
-    "question": "Hur många påskägg finns det?",
-    "answer": "1",
+    "question": "Hur många vita tangenter finns det?",
+    "answer": "52",
     "task": "Gå till altanen"
   },
   {
     "number": 4,
     "question": "Hur många lampor finns det på altanen?",
-    "answer": "1",
+    "answer": "14",
     "task": ""
   }
 ]
@@ -81,7 +82,8 @@ function checkAnswer() {
   }
   } else {
     // questionCounter++
-    if (answer.value == questionsAndAnswers[counter].answer) {
+    let value = answer.value.trim()
+    if ((value.toLowerCase() == questionsAndAnswers[counter].answer) || (value.toLowerCase() == questionsAndAnswers[counter].answer2)) {
       message.textContent = questionsAndAnswers[counter].task
       button.textContent = "Nästa fråga"
       a.textContent = "Rätt svar"
@@ -102,7 +104,7 @@ function gameOver() {
   var timeDiff = endTime - startTime
   timeDiff /= 1000
   var seconds = Math.round(timeDiff)
-  countShow.textContent = "Du har nu svarat på alla frågor, äggen finns där man gratinerar potatisgratängen"
+  countShow.textContent = "Ni har nu svarat på alla frågor, äggen finns där vi tvättar kläderna"
   // tendiv.classList.add("hideElement")
   a.classList.add("hideElement")
   answer.classList.add("hideElement")
