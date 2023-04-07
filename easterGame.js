@@ -7,32 +7,85 @@ var questionsAndAnswers = [
   {
     "number": 0,
     "question": "Vad är det för dag idag?",
-    "answer": "långfredagen",
-    "answer2": "långfredag",
-    "task": "Gå till påskriset i köket"
+    "answer": "påskafton",
+    "task": ""
   },
   {
     "number": 1,
-    "question": "Hur många påskdekorationer finns det i påskriset?",
-    "answer": "6",
+    "question": "Hur många påskpynt är det i riset?",
+    "answer": "12",
     "task": ""
   },
   {
     "number": 2,
-    "question": "Vad är det för figur som kommer med påskäggen på påsken?",
-    "answer": "påskharen",
-    "task": "Gå till pianot"
+    "question": "Hur många pinnar finns det på armgången på pippigungan?",
+    "answer": "7",
+    "task": ""
   },
   {
     "number": 3,
-    "question": "Hur många vita tangenter finns det?",
-    "answer": "52",
-    "task": "Gå till altanen"
+    "question": "Hur många hattar hänger det på väggen på altanen?",
+    "answer": "4",
+    "task": ""
   },
   {
     "number": 4,
-    "question": "Hur många lampor finns det på altanen?",
-    "answer": "14",
+    "question": "Hur många garageportar finns det på vårt område?",
+    "answer": "24",
+    "task": ""
+  },
+  {
+    "number": 5,
+    "question": "Vem dog på långfredagen?",
+    "answer": "jesus",
+    "task": ""
+  },
+  {
+    "number": 6,
+    "question": "Vad brukar man ofta lyssna på på vilan på slottet?",
+    "answer": "snick och snack",
+    "task": ""
+  },
+  {
+    "number": 7,
+    "question": "Vad har vår nya bil registreringsskylt?",
+    "answer": "emk67t",
+    "task": ""
+  },
+  {
+    "number": 8,
+    "question": "Hur många fönster finns det i vår ytterdörr?",
+    "answer": "3",
+    "task": ""
+  },
+  {
+    "number": 9,
+    "question": "Vad heter påsk på engelska?",
+    "answer": "easter",
+    "task": ""
+  },
+  {
+    "number": 10,
+    "question": "Från vilket land kommer traditionen med påskharen?",
+    "answer": "tyskland",
+    "task": ""
+  },
+  {
+    "number": 11,
+    "question": "Hur många svarta tangenter finns det på vårt elpiano?",
+    "answer": "36",
+    "task": ""
+  },
+  {
+    "number": 12,
+    "question": "Hur många fotbollar frinns det i förrådet?",
+    "answer": "4",
+    "task": ""
+  },
+  {
+    "number": 13,
+    "question": "Påskharen kommer med påskägg, men vad brukar det finnas i äggen?",
+    "answer": "godis",
     "task": ""
   }
 ]
@@ -104,7 +157,7 @@ function gameOver() {
   var timeDiff = endTime - startTime
   timeDiff /= 1000
   var seconds = Math.round(timeDiff)
-  countShow.textContent = "Ni har nu svarat på alla frågor, äggen finns där vi tvättar kläderna"
+  countShow.textContent = "Ni har nu svarat på alla frågor, äggen finns där vi har våra cyklar"
   // tendiv.classList.add("hideElement")
   a.classList.add("hideElement")
   answer.classList.add("hideElement")
