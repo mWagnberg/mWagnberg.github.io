@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beccas gosedjur</title>
+    <meta name="description" content="En varm och lekfull butik med specialgjorda gosedjur och beställning via e-post.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="beccasassets/css/style.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="container nav-bar">
+                <a class="brand-mark" href="beccaswebshop.html">Beccas gosedjur</a>
+                <nav class="site-nav" aria-label="Huvudnavigering">
+                    <a href="#products">Butik</a>
+                    <a href="#about">Om oss</a>
+                    <a href="#cart">Varukorg <span id="cart-count" class="cart-count">0</span></a>
+                    <a href="#order">Beställ</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero-band">
+                <div class="container hero-grid">
+                    <div>
+                        <p class="eyebrow">Specialgjorda gosedjur</p>
+                        <h1>Mjuka, personliga gosedjur skapade för att älskas länge.</h1>
+                        <p class="hero-copy">Här hittar du unika gosedjur med varm känsla och lekfull form. Välj dina favoriter, samla dem i varukorgen och skicka din beställning enkelt via e-post.</p>
+                        <div class="hero-actions">
+                            <a class="button button-primary" href="#products">Se gosedjuren</a>
+                            <a class="button button-secondary" href="#order">Så beställer du</a>
+                        </div>
+                    </div>
+                    <div class="hero-card">
+                        <img class="hero-illustration" src="beccasassets/images/hero-gosedjur.svg" alt="Illustration av flera gosedjur på en hylla">
+                        <p class="hero-card-label">Omsorg i varje detalj</p>
+                        <ul class="hero-points">
+                            <li>Mjuka material och vänliga uttryck</li>
+                            <li>Passar fint som gåva eller minne</li>
+                            <li>Varje modell har sin egen personlighet</li>
+                            <li>Beställ enkelt via e-post</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container section-header" id="products">
+                <p class="eyebrow">Katalog</p>
+                <h2>Utvalda gosedjur</h2>
+                <p>Upptäck handplockade gosedjur med mjuka former, lugna färger och ett uttryck som känns både lekfullt och personligt.</p>
+            </section>
+
+            <section class="container">
+                <div id="product-grid" class="product-grid" aria-live="polite"></div>
+            </section>
+
+            <section class="container about-section" id="about">
+                <div class="section-header compact-header">
+                    <p class="eyebrow">Om oss</p>
+                    <h2>En liten gosedjursbutik med varm och lekfull känsla.</h2>
+                    <p>Vi gillar gosedjur som känns personliga, mjuka och tidlösa. Kollektionen är skapad för dig som söker något omtänksamt, lekfullt och lite mer unikt än massproducerade alternativ.</p>
+                </div>
+                <div class="about-grid">
+                    <article class="about-card">
+                        <h3>Unika figurer</h3>
+                        <p>Varje gosedjur har sin egen färgskala, form och personlighet. Tanken är att varje modell ska kännas som en liten karaktär, inte bara som en produkt.</p>
+                    </article>
+                    <article class="about-card">
+                        <h3>Personlig beställning</h3>
+                        <p>När du har valt dina favoriter skickar du enkelt en beställning via e-post. Det gör det lätt att lägga till önskemål, frågor eller specialanpassningar.</p>
+                    </article>
+                    <article class="about-card">
+                        <h3>Skapade med omtanke</h3>
+                        <p>Fokus ligger på mjuka uttryck, vänliga färger och en känsla av hantverk. Gosedjuren är tänkta att passa i både barnrum och som minnesvärda presenter.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container single-page-stack" id="cart">
+                <div class="section-header compact-header">
+                    <p class="eyebrow">Varukorg</p>
+                    <h2>Dina sparade produkter</h2>
+                    <p>Varukorgen sparas i webbläsaren så att besökaren kan samla produkter innan beställningen skickas via e-post.</p>
+                </div>
+                <div id="cart-view"></div>
+            </section>
+
+            <section class="container single-page-stack" id="order">
+                <div class="section-header compact-header">
+                    <p class="eyebrow">Beställ</p>
+                    <h2>Beställ via e-post</h2>
+                    <p>När du är klar med din varukorg öppnar du ett färdigt e-postutkast med dina val. Lägg till dina uppgifter och skicka beställningen direkt.</p>
+                </div>
+
+                <div class="checkout-grid">
+                    <section class="info-panel">
+                        <h3>Mejla den här adressen för att beställa</h3>
+                        <p class="email-callout"><a id="contact-email-link" href="#">rebecca.wagnberg@gmail.com</a></p>
+                        <p>Ange namn, leveransadress och produkterna från sammanställningen. Knappen nedan öppnar ett förifyllt e-postutkast baserat på innehållet i varukorgen.</p>
+                        <div class="checkout-actions">
+                            <a id="mailto-button" class="button button-primary" href="#">Öppna e-postutkast</a>
+                            <a class="button button-secondary" href="#products">Tillbaka till produkterna</a>
+                        </div>
+                    </section>
+
+                    <section class="order-summary-panel">
+                        <h3>Sammanställning</h3>
+                        <div id="checkout-summary"></div>
+                    </section>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-row">
+                <p>Beccas gosedjur</p>
+                <p>Specialgjorda gosedjur för stora och små.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="beccasassets/js/products.js"></script>
+    <script src="beccasassets/js/site.js"></script>
+</body>
+</html>

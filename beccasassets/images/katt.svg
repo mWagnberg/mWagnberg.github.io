@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Cat stuffed animal</title>
+  <desc id="desc">A striped cat plush with a small green bow tie.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7efe1"/>
+      <stop offset="100%" stop-color="#f4d7a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="48" fill="url(#bg)"/>
+  <path d="M285 160l70 72H250z" fill="#d99d57"/>
+  <path d="M515 160l-70 72h105z" fill="#d99d57"/>
+  <path d="M307 180l38 40h-58z" fill="#efc7d0"/>
+  <path d="M493 180l-38 40h58z" fill="#efc7d0"/>
+  <circle cx="400" cy="285" r="158" fill="#e0a661"/>
+  <ellipse cx="400" cy="328" rx="84" ry="64" fill="#f8e4c8"/>
+  <circle cx="345" cy="275" r="13" fill="#2d241b"/>
+  <circle cx="455" cy="275" r="13" fill="#2d241b"/>
+  <path d="M392 314l-22 18h60l-22-18Z" fill="#cc7b76"/>
+  <path d="M375 342c12 11 38 11 50 0" fill="none" stroke="#2d241b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M310 312h-78" stroke="#7e5f3f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M312 332h-92" stroke="#7e5f3f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M490 312h78" stroke="#7e5f3f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M488 332h92" stroke="#7e5f3f" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="400" cy="492" rx="172" ry="152" fill="#d99d57"/>
+  <ellipse cx="300" cy="488" rx="36" ry="104" fill="#d99d57" transform="rotate(23 300 488)"/>
+  <ellipse cx="500" cy="488" rx="36" ry="104" fill="#d99d57" transform="rotate(-23 500 488)"/>
+  <ellipse cx="338" cy="645" rx="64" ry="90" fill="#d99d57"/>
+  <ellipse cx="462" cy="645" rx="64" ry="90" fill="#d99d57"/>
+  <path d="M332 446h136l-25 32H357z" fill="#69955f"/>
+  <path d="M468 446H332l25 32h86z" fill="#7cb072"/>
+  <circle cx="400" cy="462" r="18" fill="#4f7c46"/>
+  <path d="M350 188c-28 12-44 36-48 62" fill="none" stroke="#bd7f39" stroke-width="11" stroke-linecap="round"/>
+  <path d="M450 188c28 12 44 36 48 62" fill="none" stroke="#bd7f39" stroke-width="11" stroke-linecap="round"/>
+</svg>
