@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Gosedjur på hylla</title>
+  <desc id="desc">En heroillustration med flera mjuka gosedjur på en hylla i varma färger.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff5ea"/>
+      <stop offset="100%" stop-color="#f4dfd1"/>
+    </linearGradient>
+    <linearGradient id="shelf" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#be7f55"/>
+      <stop offset="100%" stop-color="#9e6440"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <circle cx="170" cy="150" r="90" fill="#fff8f2" opacity="0.85"/>
+  <circle cx="1030" cy="180" r="110" fill="#f7ece4" opacity="0.9"/>
+  <circle cx="920" cy="720" r="120" fill="#f3d9cb" opacity="0.8"/>
+  <rect x="110" y="620" width="980" height="42" rx="21" fill="url(#shelf)"/>
+
+  <g transform="translate(180 240)">
+    <circle cx="120" cy="90" r="44" fill="#9c6741"/>
+    <circle cx="240" cy="90" r="44" fill="#9c6741"/>
+    <circle cx="180" cy="135" r="118" fill="#a56f47"/>
+    <ellipse cx="180" cy="165" rx="52" ry="38" fill="#dfbb97"/>
+    <circle cx="142" cy="120" r="10" fill="#2e221b"/>
+    <circle cx="218" cy="120" r="10" fill="#2e221b"/>
+    <ellipse cx="180" cy="148" rx="14" ry="10" fill="#2e221b"/>
+    <path d="M166 165c8 10 20 16 28 16s20-6 28-16" fill="none" stroke="#2e221b" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="180" cy="320" rx="132" ry="122" fill="#9c6741"/>
+    <ellipse cx="102" cy="312" rx="28" ry="86" fill="#9c6741" transform="rotate(24 102 312)"/>
+    <ellipse cx="258" cy="312" rx="28" ry="86" fill="#9c6741" transform="rotate(-24 258 312)"/>
+    <ellipse cx="128" cy="438" rx="46" ry="74" fill="#9c6741"/>
+    <ellipse cx="232" cy="438" rx="46" ry="74" fill="#9c6741"/>
+    <path d="M88 250h184l-18 42H106z" fill="#d96666"/>
+  </g>
+
+  <g transform="translate(440 220)">
+    <ellipse cx="95" cy="72" rx="40" ry="115" fill="#f6f0ec" transform="rotate(-12 95 72)"/>
+    <ellipse cx="225" cy="72" rx="40" ry="115" fill="#f6f0ec" transform="rotate(12 225 72)"/>
+    <ellipse cx="95" cy="72" rx="16" ry="82" fill="#efc7d0" transform="rotate(-12 95 72)"/>
+    <ellipse cx="225" cy="72" rx="16" ry="82" fill="#efc7d0" transform="rotate(12 225 72)"/>
+    <circle cx="160" cy="175" r="108" fill="#f8f4f1"/>
+    <circle cx="124" cy="163" r="9" fill="#31241b"/>
+    <circle cx="196" cy="163" r="9" fill="#31241b"/>
+    <ellipse cx="160" cy="192" rx="13" ry="10" fill="#db9aa7"/>
+    <path d="M160 205v18" stroke="#31241b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M160 223c-10 0-17 6-21 14" fill="none" stroke="#31241b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M160 223c10 0 17 6 21 14" fill="none" stroke="#31241b" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="160" cy="340" rx="124" ry="116" fill="#f6f0ec"/>
+    <ellipse cx="88" cy="334" rx="26" ry="80" fill="#f6f0ec" transform="rotate(26 88 334)"/>
+    <ellipse cx="232" cy="334" rx="26" ry="80" fill="#f6f0ec" transform="rotate(-26 232 334)"/>
+    <ellipse cx="116" cy="454" rx="44" ry="68" fill="#f6f0ec"/>
+    <ellipse cx="204" cy="454" rx="44" ry="68" fill="#f6f0ec"/>
+    <path d="M102 300h116l-19 28h-78z" fill="#7396c8"/>
+    <path d="M218 300H102l19 28h78z" fill="#89a9d4"/>
+  </g>
+
+  <g transform="translate(720 240)">
+    <circle cx="75" cy="90" r="42" fill="#232628"/>
+    <circle cx="225" cy="90" r="42" fill="#232628"/>
+    <circle cx="150" cy="140" r="118" fill="#fbfbfb"/>
+    <ellipse cx="102" cy="134" rx="28" ry="40" fill="#232628" transform="rotate(20 102 134)"/>
+    <ellipse cx="198" cy="134" rx="28" ry="40" fill="#232628" transform="rotate(-20 198 134)"/>
+    <circle cx="112" cy="138" r="8" fill="#fbfbfb"/>
+    <circle cx="188" cy="138" r="8" fill="#fbfbfb"/>
+    <ellipse cx="150" cy="174" rx="48" ry="34" fill="#efefef"/>
+    <ellipse cx="150" cy="164" rx="12" ry="9" fill="#232628"/>
+    <path d="M138 182c7 8 17 13 24 13s17-5 24-13" fill="none" stroke="#232628" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="150" cy="338" rx="128" ry="120" fill="#fbfbfb"/>
+    <ellipse cx="72" cy="330" rx="28" ry="88" fill="#232628" transform="rotate(24 72 330)"/>
+    <ellipse cx="228" cy="330" rx="28" ry="88" fill="#232628" transform="rotate(-24 228 330)"/>
+    <ellipse cx="108" cy="456" rx="42" ry="70" fill="#232628"/>
+    <ellipse cx="192" cy="456" rx="42" ry="70" fill="#232628"/>
+  </g>
+
+  <g fill="#ffffff" opacity="0.85">
+    <circle cx="210" cy="585" r="12"/>
+    <circle cx="252" cy="550" r="7"/>
+    <circle cx="946" cy="560" r="10"/>
+    <circle cx="988" cy="522" r="6"/>
+  </g>
+</svg>
