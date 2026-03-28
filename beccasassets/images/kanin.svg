@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Rabbit stuffed animal</title>
+  <desc id="desc">A soft rabbit plush with long ears and a blue ribbon.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8f0fb"/>
+      <stop offset="100%" stop-color="#cfe3fa"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="48" fill="url(#bg)"/>
+  <ellipse cx="330" cy="165" rx="62" ry="155" fill="#f6f0ec" transform="rotate(-12 330 165)"/>
+  <ellipse cx="470" cy="165" rx="62" ry="155" fill="#f6f0ec" transform="rotate(12 470 165)"/>
+  <ellipse cx="330" cy="165" rx="26" ry="112" fill="#efc7d0" transform="rotate(-12 330 165)"/>
+  <ellipse cx="470" cy="165" rx="26" ry="112" fill="#efc7d0" transform="rotate(12 470 165)"/>
+  <circle cx="400" cy="295" r="150" fill="#f8f4f1"/>
+  <circle cx="345" cy="280" r="13" fill="#31241b"/>
+  <circle cx="455" cy="280" r="13" fill="#31241b"/>
+  <ellipse cx="400" cy="324" rx="19" ry="15" fill="#db9aa7"/>
+  <path d="M400 341v22" stroke="#31241b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M400 363c-14 0-23 9-28 20" fill="none" stroke="#31241b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M400 363c14 0 23 9 28 20" fill="none" stroke="#31241b" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="400" cy="470" rx="170" ry="150" fill="#f6f0ec"/>
+  <ellipse cx="302" cy="470" rx="34" ry="104" fill="#f6f0ec" transform="rotate(26 302 470)"/>
+  <ellipse cx="498" cy="470" rx="34" ry="104" fill="#f6f0ec" transform="rotate(-26 498 470)"/>
+  <ellipse cx="336" cy="635" rx="62" ry="90" fill="#f6f0ec"/>
+  <ellipse cx="464" cy="635" rx="62" ry="90" fill="#f6f0ec"/>
+  <path d="M325 430h150l-25 44H350z" fill="#7396c8"/>
+  <path d="M475 430h-150l25 44h100z" fill="#89a9d4"/>
+  <circle cx="400" cy="450" r="21" fill="#5677ac"/>
+</svg>
